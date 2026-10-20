@@ -1,10 +1,10 @@
 ---------------------------
 Types of ML Systems
 ---------------------------
-**Supervised Learning:** When human gives the correct results to ML. This like a student learning from old exams answers for a new exam.
--- Regression and Classification is two of the most common use cases
-**Unsupervised  Learning:**  Identify meaningful patterns in a dataset.
-**Reinforcement Learning:** Make predictions by getting rewards or penalties based on actions.
+**Supervised Learning:** When human gives the correct results to ML. This like a student learning from old exams answers for a new exam.\
+-- Regression and Classification is two of the most common use cases\
+**Unsupervised  Learning:**  Identify meaningful patterns in a dataset.\
+**Reinforcement Learning:** Make predictions by getting rewards or penalties based on actions.\
 **Gen AI :** Creates content from user input.
 
 -------- Linear Regression ----------
