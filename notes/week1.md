@@ -19,14 +19,14 @@ w1 weight is a parameter of the model is calculated during training
 
   -- What is Loss?
 
-  Loss measures distance between model's predictions and the actual labels.There are 5 main type of loss calculation in linear regression
-
-  L1: Sum (actual val. - predicted val.)  
-  Mean absolute err. (MAE) : the avg of L1 ,  DIVIDE(L1,n) n->the set of exmp. The model is closer to outliers but further away from most of the other data points.
-  L2: Sum ( (actual val. - predicted val.)² )
-  Mean squared err. (MSE) : the avg of L2 , DIVIDE(L2,n) n->the set of exmp. The model is further away from outliers but closer to most of other data points
-  Root mean squared err. (RMSE): √MSE
+  Loss measures distance between model's predictions and the actual labels.There are 5 main type of loss calculation in linear regression\
+  L1: Sum (actual val. - predicted val.)\
+  Mean absolute err. (MAE) : the avg of L1 ,  DIVIDE(L1,n) n->the set of exmp. The model is closer to outliers but further away from most of the other data points.\
+  L2: Sum ( (actual val. - predicted val.)² )\  
+  Mean squared err. (MSE) : the avg of L2 , DIVIDE(L2,n) n->the set of exmp. The model is further away from outliers but closer to most of other data points\  
+  Root mean squared err. (RMSE): √MSE\
   
 -------- Gradient Descent ----------
 I will continue from below page
+
 https://developers.google.com/machine-learning/crash-course/linear-regression/gradient-descent
