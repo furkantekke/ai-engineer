@@ -17,7 +17,7 @@ y(prediction) = b(bias) + w1a1 (weight of feature x feature val.) + w2a2 + w3a3
 bias is a parameter of the model and is calculated during training
 w1 weight is a parameter of the model is calculated during training
 
-  -- What is Loss?
+ --- What is Loss?
 
   Loss measures distance between model's predictions and the actual labels.There are 5 main type of loss calculation in linear regression\
   L1: Sum (actual val. - predicted val.)\
@@ -26,7 +26,11 @@ w1 weight is a parameter of the model is calculated during training
   Mean squared err. (MSE) : the avg of L2 , DIVIDE(L2,n) n->the set of exmp. The model is further away from outliers but closer to most of other data points  
   Root mean squared err. (RMSE): √MSE
   
--------- Gradient Descent ----------
-I will continue from below page
+--- Gradient Descent 
+ Mathematical technique that iteratively finds the weights and bias that produce the model with the lowest loss.
 
-https://developers.google.com/machine-learning/crash-course/linear-regression/gradient-descent
+--- Hyperparameters
+Variables that control the different aspects of training. Common hyperparameters; 
+Learning Rate: We set it for how quickly the model converges. If it is too low the model takes a long time to converge if it is too high the model never converges.
+Batch size: Refers to the number of examples the modek processes before updating its weights and bias.
+Epochs 
