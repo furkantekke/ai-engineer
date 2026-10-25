@@ -1,0 +1,9 @@
+>> cd ..\folderpath
+>>.venv\Scripts\activate.bat
+>>jupyter lab
+
+go to browser to the link with given from cmd then type python codes in browser jupyter notebook, after finishing the work we need to pull our repo into localFolder
+but also we need to setup the environment beforly like a created repo and branch. after all push changes into repo
+
+>>git pull
+>>git push
