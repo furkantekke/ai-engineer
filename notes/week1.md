@@ -32,5 +32,5 @@ w1 weight is a parameter of the model is calculated during training
 --- Hyperparameters
 Variables that control the different aspects of training. Common hyperparameters; 
 Learning Rate: We set it for how quickly the model converges. If it is too low the model takes a long time to converge if it is too high the model never converges.
-Batch size: Refers to the number of examples the modek processes before updating its weights and bias.
-Epochs 
+Batch size: Refers to the number of examples the model processes before updating its weights and bias.
+Epochs: This parameter sets before the model training. In general more epochs produces a better model, but takes more time to train.
